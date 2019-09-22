@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: Gainsboro;
+}
+
+main {
+  margin: 50px auto;
+  border: 2px solid teal;
+  width: 300px;
+  background-color: ivory;
+}
+
+h1 {
+  text-align: center;
+  color: teal;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 10px auto;
+  border: 1px solid black;
+  width: 150px;
+  background-color: teal;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  background-color: indianred;
+}
+
+.porthole {
+    height: 250px;
+    width: 250px;
+    border: 2px solid teal;
+    border-radius: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#ground-floor {
+  width: 155%;
+  margin-left: -60px;
+}
+
+#floor-1 {
+  width: 200%;
+  margin-left: -150px;
+  margin-top: -20px;
+}
+
+#floor-2 {
+  width: 200%;
+  margin-left: -60px;
+}
+
+#floor-3 {
+  margin-left: -100px;
+  margin-top: -20px;
+}
+
+#floor-4 {
+  width: 150%;
+  margin-left: -60px;
+  margin-top: -20px;
+}
+
+#floor-5 {
+  width: 150%;
+  margin-left: -60px;
+  margin-top: -10px;
+}
