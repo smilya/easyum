@@ -19,7 +19,7 @@ h1 {
 }
 
 ul {
-  list-style: none;
+  /* list-style: none; */
   padding: 0;
 }
 
@@ -31,11 +31,14 @@ li {
   border: 1px solid black;
   width: 150px;
   background-color: teal;
-  color: white;
+  
+  list-style: none;
 }
 
 a {
   text-decoration: none;
+  color: white;
+  display: block;
 }
 
 .active {
