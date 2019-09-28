@@ -20,7 +20,7 @@ body {
   grid-area: 1 / 1 / 2 / 13;
   background: url(pictures/smith_premier.jpg) 5% 65% / auto 140% no-repeat,
               url(pictures/news-paper.jpeg) 95% 80% / auto 90% no-repeat;
-  opacity: 0.65;
+  opacity: 0.75;
 }
 
 header {
