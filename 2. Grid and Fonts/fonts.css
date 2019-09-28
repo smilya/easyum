@@ -21,12 +21,12 @@
 
 @font-face {
   font-family: 'Economica';
-  src: url('fonts/fonts/Economica-Italic.eot');
+  src: url('fonts/Economica-Italic.eot');
   src: local('Economica Italic'), local('Economica-Italic'),
-      url('fonts/fonts/Economica-Italic.eot?#iefix') format('embeddefonts/fonts/d-opentype'),
-      url('fonts/fonts/Economica-Italic.woff2') format('woff2'),
-      url('fonts/fonts/Economica-Italic.woff') format('woff'),
-      url('fonts/fonts/Economica-Italic.ttf') format('truetype');
+      url('fonts/Economica-Italic.eot?#iefix') format('embeddefonts/fonts/d-opentype'),
+      url('fonts/Economica-Italic.woff2') format('woff2'),
+      url('fonts/Economica-Italic.woff') format('woff'),
+      url('fonts/Economica-Italic.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }
