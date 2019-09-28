@@ -2,16 +2,22 @@
   box-sizing: border-box;  
 }
 
+html {
+  background-color: Gainsboro;
+}
+
 body {
   max-width: 1024px;
   margin: 0 auto;
+  background-color: white;
+  height: 100vh;
 }
 .grid {
   max-width: 1024px;
   margin: 0 auto;
   display: grid;
-  grid-template: 1fr repeat(10, 1fr) / repeat(12, 1fr);
-  height: 90vh;
+  grid-template: 2fr 1fr 4fr 1fr 4fr / repeat(12, 1fr);
+  height: 40vh;
   column-gap: 1vw;
   padding: 0 1vw;
 }
@@ -35,7 +41,7 @@ h1, h2 {
 
 h2 {
   padding-left: 5vw;
-  font-size: 2.5vw;
+  font-size: 2.5vw; 
 }
 
 .heading-outers {
@@ -120,9 +126,74 @@ article p {
 }
 
 .heading-inners h2 {
-  padding-top: 1.5vw;
+  padding-top: 2vw;
 }
 
+/* Inner Montserrat-------------------- */
+#inner-montserrat {
+  grid-area: 5 / 1 / 6 / 5;
+  font-family: 'Montserrat';
+  padding-top: 0.5em; 
+}
+
+#inner-montserrat p {
+  font-size: 2.3vw;
+}
+
+#montserrat-900 {
+  font-weight: 900;
+}
+
+#montserrat-400 {
+  font-weight: 400;
+}
+
+#montserrat-100 {
+  font-weight: 100;
+}
+/* Inner Economica-------------- */
+#inner-economica {
+  grid-area: 5 / 5 / 6 / 9;
+  padding-top: 0.5em;
+  font-family: 'Economica';
+}
+
+#economica-bold {
+  font-weight: bold;
+  font-style: normal;
+}
+
+#economica-normal {
+  font-weight: normal;
+  font-style: normal;
+}
+
+#economica-italic {
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Inner Circe-------------- */
+#inner-circle {
+  grid-area: 5 / 9 / 6 / 13;
+  padding-top: 0.5em;
+  font-family: 'Circe';
+}
+
+#circle-bold {
+  font-weight: bold;
+  font-style: normal;
+}
+
+#circle-regular {
+  font-weight: normal;
+  font-style: normal;
+}
+
+#circle-extralight {
+  font-weight: 200;
+  font-style: normal;
+}
 /*-----------------------------------------------------*/
 @media (min-width: 1024px) {
   header h1 {
@@ -138,6 +209,10 @@ article p {
     column-gap: 10.24px;
   }
 
+  article {
+    padding-left: 12.24px;
+  }
+
   article p {
     font-size: 30.72px;
     margin: 0;
@@ -148,5 +223,11 @@ article p {
   #google-nunito p {
     font-size: 27px;
   }
+
+  #inner-montserrat p {
+    font-size: 23.552px;
+  }
+
+  
 }
 
