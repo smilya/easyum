@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+}  
+
+html {
+  background-color: rgba(255, 248, 220, 0.3);
+  overflow-x: hidden;
+}
+
+body {
+  width: 870px;
+  margin: 0 auto;
+}
+
+header {
+  position: relative;
+}
+
+.background {
+  background-image: url(http://www.izhvkpb.narod.ru/1may/1may16.jpg);
+  background-size: 100% auto;
+  background-position: center 40%;
+  height: 100%;
+  opacity: .5;
+  position: absolute;
+  width: 100%; 
+  z-index: 1;  
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin: 15px 0; 
+  padding-bottom: 40px;
+  border-bottom: 2px solid sienna;
+  color: saddlebrown;
+  text-shadow: 0 0 15px cornsilk;
+  position: relative;
+  z-index: 5;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 17px;
+  position: relative;
+  z-index: 5;
+  font-family: "Pacifico";
+}
+
+main {
+  padding: 0 15px;
+}
+
+section {
+  position: relative;
+  margin: 20px 0;
+}
+
+section p {
+  white-space: pre;
+  font-size: 22px;
+  font-family: sans-serif;
+  margin: 10px 0;
+  line-height: 25px;
+}
+
+section:nth-child(even) p {
+  margin-left: 25px;
+}
+
+figure {
+  height: 100%;
+  width: 270px;
+  position: absolute;
+  overflow: hidden;
+  border: 2px solid sienna;
+}
+
+section:nth-child(odd) figure {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  float: right;
+}
+
+section:nth-child(even) figure {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  float: left;
+}
+
+section:nth-child(even) p {
+  position: relative;
+  left: 280px;
+}
+
+img {
+  height: 100%;
+  position: relative;
+  object-fit: cover;
+  object-position: center;
+ 
+}
+
+#section-text-left-top img {
+  object-position: 0px 0;
+  height: 110%
+}
+
+#section-text-right-top img {
+  height: 150%;
+  object-position: -10px -15px;
+}
+
+#section-text-right-bottom img {
+  object-position: -30px;
+}
+
+.round-layer {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: cornsilk;
+  z-index: 10;
+  top: 3px;
+  left: 3px;
+}
+
+.round-layer::before {
+  content: "\1F592";
+  position: absolute;
+  font-size: 50px;
+  z-index: 10;
+  top: -6px;
+  left: 3px;
+  color: sienna; 
+}
+
+.round-layer:hover {
+  background-color: yellow;
+}
+
+.round-layer::after {
+  content: "\1F593";
+  position: absolute;
+  font-size: 50px;
+  z-index: 10;
+  top: -11px;
+  left: 5px;
+  color: sienna;  
+}
+
+section:nth-child(odd) .round-layer::after {
+  display: none;
+}
+
+section:nth-child(even) .round-layer::before {
+  display: none;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.underline {
+  text-decoration: underline;
+}
