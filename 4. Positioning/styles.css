@@ -1,0 +1,188 @@
+@font-face {
+	font-family: 'Ancient Kyiv';
+	src: url('fonts/AncientKyiv.eot');
+	src: local('fonts/Ancient Kyiv'), local('fonts/AncientKyiv'),
+		url('fonts/AncientKyiv.eot?#iefix') format('embedded-opentype'),
+		url('fonts/AncientKyiv.woff') format('woff'),
+		url('fonts/AncientKyiv.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  background-color: rgba(135, 206, 250, 0.2);
+  max-width: 1400px;
+}
+
+header {
+  background-image: url(images/header-background.jpg);
+  background-position: center;
+  height: 15vw;  
+  border-bottom: 2px solid NavajoWhite;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  padding-top: 5vw;
+  letter-spacing: 10px;
+  font-size: 5vw;
+  color: NavajoWhite;
+  text-shadow: 0 0 15px skyblue;
+  font-family: Ancient Kyiv;
+}
+
+@media screen and (min-width:1400px) {
+  h1 {
+    padding-top: 70px;
+    font-size: 70px;
+  }
+  
+  header {
+    height: 210px;
+  }
+}
+
+main {
+  padding: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin: 5px;
+  margin-left: 23px;
+}
+
+p:first-of-type::first-letter, 
+article:last-of-type p:last-of-type::first-letter {
+  font-weight: bold;
+  font-size: 52px;
+  font-family: Ancient Kyiv;
+
+}
+
+p:first-of-type::first-line, 
+article:last-of-type p:last-of-type::first-line {
+  text-indent: -16px;
+}
+
+h2 {
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+figure {
+  width: 220px;
+  background-color: rgba(135, 206, 250, 0.2);
+  padding: 15px;
+  padding-bottom: 5px;
+  margin: 10px;
+  text-align: center;
+  color: navy;
+  font-weight: bold;
+  border: 2px solid navajowhite;
+  float: left;
+}
+
+img {
+  width: 100%;
+    /*почему так не работает??? */
+    /* убрать из figure padding и: 
+    width: 90%;
+    margin: 0 auto;  
+    */  
+}
+
+img.vertical-image {
+  height: 139.5px;
+  object-fit: cover;
+  object-position: 50% 25%;
+  position: relative;
+}
+
+figure:hover {
+  cursor: pointer;
+}
+
+figcaption {
+  display: inline-block;
+  width: 80%;
+  height: 36px;
+  padding-top: 8px;
+}
+
+.two-row-caption {
+  padding-top: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+article p:last-of-type {
+  margin-bottom: 35px;
+}
+
+.clear-divider {
+  clear: both;
+}
+
+footer {  
+  background-color:  rgba(135, 206, 250, 0.2);
+  border-top: 2px solid navajowhite;
+  text-align: end;
+  padding: 5px 10px;
+}
+
+footer p, 
+footer p:first-of-type::first-letter  { 
+  font-size: 12px;
+  font-weight: normal;
+  margin: 0;
+  color: navy;
+}
+
+.large-image {
+  position: fixed;
+  width: 70%;
+  max-height: 70%;
+  margin: 5% 15%; 
+  top: 0;
+  max-height: 90%;
+  object-fit: contain;
+  cursor: pointer;
+  display: none;
+  z-index: 10;
+}
+
+.opaque-layer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.65);;
+  top: 0;
+  display: none;
+  z-index: 7;
+}
+
+.round-block {  
+  z-index: 10;
+  position: fixed;
+  top: 1.5vw;
+  left: 85vw;
+  display: none;  
+}
+
+.round-block::after {
+  content: "✖";
+  color: wheat;
+  font-size: 48px;
+  cursor: pointer;  
+}
