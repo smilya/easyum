@@ -15,7 +15,7 @@ let images = document.querySelectorAll("figure img");
 
 for (let index = 0; index < images.length; index++) {
   images[index].onclick = function() {
-    let path = images[index].src;
+    let path = images[index].dataset.src;
     largeImage.src = path;
     largeImage.style.display='block';
     opaqueLayer.style.display='block';
