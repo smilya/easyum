@@ -99,6 +99,7 @@ button {
   width: 92px;
   color: darkolivegreen;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .hire-container img {
@@ -126,7 +127,8 @@ p {
   right: -10px;
   background-image: linear-gradient(to right, olivedrab, darkseagreen );
   padding: 3px 20px 3px 8px;
-  box-shadow: 5px 5px 8px 0px darkolivegreen;
+  text-align: right;
+  cursor: pointer;
 }
 
 .counter p {
@@ -134,4 +136,32 @@ p {
   padding: 0;  
   font-size: 16px;
   text-shadow: none;
+}
+
+.invisible {
+  display: none;
+}
+
+.reject {
+  background-color: tomato;
+  color: ghostwhite;
+}
+
+.stamp {
+  padding: 10px;
+  border: 4px solid darkslateblue;
+  text-align: center;
+  width: 170px;
+  position: absolute;
+  transform: rotate(-35deg);
+  top: 150px;
+  left: 20px;
+}
+
+.stamp span {
+  color: darkslateblue;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
