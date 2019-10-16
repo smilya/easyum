@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  color: ghostwhite;
+}
+
+h2 {
+  
+  text-shadow: 0 0 15px darkolivegreen;
+}
+
+body {
+  background-color: darkseagreen;
+}
+
+.body-container {
+  max-width: 1210px; 
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+main {
+  padding: 0 20px;
+}
+
+section {
+ margin: 0 20px;
+ letter-spacing: 10px;
+}
+
+header, footer {  
+  background-image: linear-gradient(to right, olivedrab, darkseagreen 45%);
+  border: 2px solid transparent;
+  border-right: none; 
+  border-image: linear-gradient(to right, darkolivegreen, darkseagreen);
+  -moz-border-image: -moz-linear-gradient(to right, darkolivegreen, darkseagreen );
+  -webkit-border-image: -webkit-linear-gradient(to right, darkolivegreen, darkseagreen );
+  border-image-slice: 1;
+ }
+
+h1 {
+   margin-left: 20px; 
+}
+
+.unit {
+  border: 2px solid darkolivegreen;
+  width: 250px;
+  background-color: olive;
+  display: inline-block;
+  margin-bottom: 5px;
+  height: 438px;
+  vertical-align: top;
+  position: relative;
+  letter-spacing: normal;
+}
+
+table {
+  padding: 5px;  
+}
+
+.unit > img {
+  width: 100%;
+  border-bottom: 2px solid darkolivegreen;
+  display: block;
+}
+
+tr > td:first-child {
+  width: 95px;
+  font-weight: bold; 
+  vertical-align: top; 
+}
+
+tr > td:last-child {
+  font-size: 18px;
+} 
+
+.low-image {
+  height: 166px;
+}
+
+.hire-container {
+  text-align: right;
+  padding: 20px;
+  padding-right: 25px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+button {
+  padding: 5px;
+  margin-top: 10px;
+  width: 92px;
+  color: darkolivegreen;
+  font-weight: bold;
+}
+
+.hire-container img {
+  width: 22%;
+  position: absolute;
+  bottom: 20px;
+  left: 18px;
+}
+
+footer {
+  height: 50px;
+  margin-top: 30px;
+}
+
+p {
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 20px;
+  text-shadow: 0 0 15px darkolivegreen;
+}
