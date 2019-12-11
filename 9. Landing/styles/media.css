@@ -1,0 +1,375 @@
+@media screen and (max-width: 1192px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .laptop-image {
+    right: 10px;
+  } 
+}
+
+@media screen and (max-width: 1140px) {
+  .tile {
+    width: 35%;
+  }
+
+  .guidelines-tile-outer {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .laptop-image {
+    top: -1000px;    
+  } 
+  
+}
+
+@media screen and (max-width: 900px) {
+
+  .guidelines-description {
+    padding: 16px 22px 16px 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .section-face-logo {
+    width: 69px;
+  }
+
+  .face-title, .header-title {
+    font-size: 40px;
+    line-height: 35px;
+  }
+
+  .face-text, .header-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .menu-link  {
+    font-size: 12px;
+    line-height: 21px;
+  }
+
+  .menu-item:not(.menu-button) {
+    margin-right: 18px;
+  }
+
+  .input-container {
+    width: 210px;;
+  }  
+
+  .form-select, .form-input-email {
+    padding: 16px 0 15px 21px;
+  }
+
+  .form-button {
+    padding: 26px 27px;
+  }
+
+  .navigation {
+    margin-bottom: 120px;
+  }
+
+  .header {
+    padding-top: 60px;
+    padding-bottom: 180px;
+  }
+
+  .circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .cellphone-title, .guidelines-title {
+    font-size: 28px;
+    line-height: 27px;
+  }
+
+  .cellphone-text, .tiles-text, .guidelines-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .guidelines-title {
+    margin-bottom: 35px;
+  }
+
+  .guidelines-text {
+    display: block;
+    width: 70%;
+    margin: 0 auto 30px;
+  }
+
+  .guidelines-description {
+    padding: 12px 22px 12px 0;
+  }
+
+  .cellphone-image {
+    width: 300px;
+  }
+
+  .section-cellphone {
+    padding-top: 90px;
+    padding-bottom: 200px;
+  }
+
+  .tiles-title {
+    font-size: 22px;
+    line-height: 21px;
+  }
+
+  .tile-round {
+    width: 100px;
+    height: 100px;
+  }
+
+  .icon-cart {
+    width: 35px;
+  }
+  
+  .icon-telegram {
+    width: 27px;
+  }
+  
+  .icon-arrows {
+    width: 29px;
+  }
+  
+  .icon-oven {
+    width: 39px;
+  }
+
+  .tile-title {
+    font-size: 14px;
+    line-height: 22px;    
+  }
+
+  .tile-text {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  
+  .section-tiles {
+    padding-top: 110px;
+    padding-bottom: 90px;
+  }
+
+  .guidelines-item-text {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .guidelines-item-development {
+    padding: 0 20px;
+  }
+  
+  .guidelines-item-design {
+    padding: 0 29px;  
+  }
+  
+  .guidelines-item-business {
+    padding: 0 18px;
+  }
+  
+  .guidelines-item-arts {
+    padding: 0 32px;
+  }
+
+  .guidelines-item-text {
+    margin: 8px 0;
+  }
+
+  .guidelines-tile {
+    width: 75%;
+  }
+
+  .section-guidelines {
+    padding-top: 95px;
+    padding-bottom: 62px;
+  }
+
+  .section-face {
+    padding-top: 230px;
+    padding-bottom: 220px;
+  }
+
+  .footer-info-text {
+    font-size: 10px;
+  }
+
+  .footer-menu {
+    margin-right: 58px;
+  }
+
+  .footer-menu-item {
+    padding-bottom: 14px;
+  }
+
+  .output-text {
+    margin-bottom: 11px;
+  }
+
+  .last-words-text {
+    margin-top: 12px;
+  }
+
+  .footer {
+    padding-top: 485px;
+    padding-bottom: 105px;
+  }
+
+  .social-button {
+    padding: 0 12px 0 30px;    
+  }
+
+  .social-nets-text {
+    font-size: 11px;
+  }
+
+  .tweet-icon {
+    width: 14px;
+    left: 12px;
+  }
+  
+  .share-icon {
+    width: 9px;
+    left: 15px;
+  }
+
+  .laptop-image {
+    top: -700px;   
+    width: 75% 
+  }
+  
+  .button-up {
+    margin-left: 19px;
+    padding: 18px;
+  }
+
+  .button-contact-us {
+    padding: 10px 34px;    
+    transform: rotate(-90deg) translate(0, 43px);   
+  }
+
+  .contact-us-text {
+    font-size: 11px;
+    line-height: 20px;
+  }
+
+}
+
+@media screen and (max-width: 545px) {
+  .header-logo, .section-face-logo {
+    width: 50px;
+  }
+
+  .section-face-logo {
+    margin-right: 30px;
+  }
+
+  .face-title, .header-title {
+    font-size: 30px;
+    line-height: 25px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu-burger {
+    display: block;
+  }
+
+  .input-container:first-of-type {
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .tile {
+    width: 75%;
+    margin-bottom: 40px;
+  }
+
+  .guidelines-item {
+    display: block;
+    width: 75%;
+    margin: 0 auto 10px;
+    border: 1px solid  #28c8c6;
+
+  }
+
+  .guidelines-description {
+    padding: 16px 22px 16px 0;
+  }
+
+  .guidelines-tile-outer {
+    width: 90%;
+  }
+
+  .face-text-container {
+    display: table;
+    margin: 0 auto;
+  }
+
+  .footer {
+    padding-top: 350px;    
+  }
+
+  .laptop-image {
+    top: -550px;
+  }
+
+}
+
+.menu-burger-click + .menu-burger {
+  display: none;
+}
+
+.menu-burger-click {
+  display: block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #3c086b;
+  z-index: 10; 
+  padding-top: 50px; 
+}
+
+.close-cross {
+  width: 30px;
+  height: 30px;  
+  color: white;
+  font-size: 35px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer; 
+  display: none;
+}
+
+.menu-burger-click .menu-item {
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 24px;
+  padding-bottom: 8px;
+  border-bottom: 3px solid rgba(40, 200, 198, 0);
+}
+
+.menu-burger-click .menu-button {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.menu-burger-click .menu-button-link {
+  display: table;
+  margin: 0 auto;
+}
+
+.menu-burger-click .menu-button + .menu-button-arrow {
+  top: 34px;
+}
