@@ -1,0 +1,229 @@
+@keyframes step-1-animation {
+  from {
+    transform-origin: 100px 100px;
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform-origin: 100px 100px;
+    transform: rotate(110deg);
+  }
+}  
+
+.step-1 {
+  animation-name: step-1-animation;  
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0,.47,1,.53);
+}
+
+@keyframes step-2-animation {
+  from {
+    transform: translate(180px, 14px);
+  }
+
+  to {
+    transform: translate(280px, 410px); 
+  }
+}  
+
+.step-2 {
+  animation-name: step-2-animation;  
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(.3,.13,.66,.14);
+}
+
+@keyframes step-3-animation {
+  from {
+    transform: translate(280px, 410px);
+  }
+
+  to {
+    transform: translate(350px, 275px); 
+  }
+}  
+
+.step-3 {
+  animation-name: step-3-animation;  
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(.04,.29,.16,.48);
+}
+
+@keyframes step-4-animation {
+  from {
+    transform: translate(350px, 275px);
+  }
+
+  to {
+    transform: translate(420px, 410px); 
+  }
+}  
+
+.step-4 {
+  animation-name: step-4-animation;  
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(.3,.13,.66,.14);
+}
+
+@keyframes step-5-animation {
+  from {
+    transform: translate(420px, 410px);
+  }
+
+  30% {
+    transform: translate(455px, 380px);
+  }
+
+  to {
+    transform: translate(520px, 410px); 
+  }
+}  
+
+.step-5 {
+  animation-name: step-5-animation;  
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+@keyframes step-6-animation {
+  from {
+    transform: translate(520px, 410px);
+  }
+
+  80% {
+    transform: translate(600px, 410px);
+  }
+
+  to {
+    transform: translate(600px, 410px); 
+  }
+}  
+
+.step-6 {
+  animation-name: step-6-animation;  
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(.18,.19,.35,.97);
+}
+
+.rotate-best .rotate {
+  transform: rotate(2200deg);
+  transition-duration: 4.9s;
+  transition-timing-function: cubic-bezier(.1,.52,.38,.89);
+  transition-property: transform;
+}
+
+/* ================================== */
+
+@media screen and (max-width: 900px) {
+
+@keyframes step-1-animation {
+  from {
+    transform: translate(0, 0);
+  }
+
+  to {
+    transform: translate(13.3vw, 0);
+  }
+}  
+
+.step-1 {
+  animation-name: step-1-animation;  
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0,.47,1,.53);
+}
+
+@keyframes step-2-animation {
+  from {
+    transform: translate(13.3vw, 0);
+  }
+
+  to {
+    transform: translate(31vw, 410px); 
+  }
+}  
+
+.step-2 {
+  animation-name: step-2-animation;  
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(.3,.13,.66,.14);
+}
+
+@keyframes step-3-animation {
+  from {
+    transform: translate(31vw, 410px);
+  }
+
+  to {
+    transform: translate(39vw, 275px); 
+  }
+}  
+
+.step-3 {
+  animation-name: step-3-animation;  
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(.04,.29,.16,.48);
+}
+
+@keyframes step-4-animation {
+  from {
+    transform: translate(39vw, 275px);
+  }
+
+  to {
+    transform: translate(47vw, 410px); 
+  }
+}  
+
+.step-4 {
+  animation-name: step-4-animation;  
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(.3,.13,.66,.14);
+}
+
+@keyframes step-5-animation {
+  from {
+    transform: translate(47vw, 410px);
+  }
+
+  30% {
+    transform: translate(50.5vw, 380px);
+  }
+
+  to {
+    transform: translate(58vw, 410px); 
+  }
+}  
+
+.step-5 {
+  animation-name: step-5-animation;  
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+@keyframes step-6-animation {
+  from {
+    transform: translate(58vw, 410px);
+  }
+
+  80% {
+    transform: translate(67vw, 410px);
+  }
+
+  to {
+    transform: translate(67vw, 410px); 
+  }
+}  
+
+.step-6 {
+  animation-name: step-6-animation;  
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(.18,.19,.35,.97);
+}
+
+.rotate-best .rotate {
+  transform: rotate(2200deg);
+  transition-duration: 4.9s;
+  transition-timing-function: cubic-bezier(.1,.52,.38,.89);
+  transition-property: transform;
+}
+
+}

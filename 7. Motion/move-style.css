@@ -1,0 +1,235 @@
+
+.move-2 {
+  animation-name: fallDown-2;  
+  animation-duration: 7s;
+  animation-timing-function: ease-in;
+  transform: translate(550px, 410px);
+  transition-property: transform;
+  transition-delay: 7s;
+}
+
+.move-2 .rotate {
+  transform: rotate(1200deg);
+  transition-duration: 7s;
+  transition-timing-function: linear;
+  transition-property: transform;
+}
+
+@keyframes fallDown-2 {
+  from {
+    transform-origin: 100px 100px;
+    transform: rotate(0deg);
+  }
+
+  5% {
+    transform-origin: 100px 100px;
+    transform: rotate(90deg);
+  }
+
+  20% {
+    transform: translate(220px, 410px);    
+  }
+
+  35% {
+    transform: translate(270px, 137px);
+  }
+
+  50% {
+    transform: translate(320px, 410px);
+  }
+
+  65% {
+    transform: translate(370px, 273px);
+  }
+
+  80% {
+    transform: translate(420px, 410px);
+  }
+  
+  100% {
+    transform: translate(550px, 410px);
+  }
+  
+}
+
+.move-3 {
+  animation-name: fallDown-3;
+  animation-duration: 3s;
+  /* animation-timing-function: ease-in; */
+  animation-timing-function: cubic-bezier(.31,0,.9,.248);
+
+  visibility: hidden;
+  transform: translate(130px, 410px);
+  transition-property: transform, visibility;
+  transition-delay: 3s;    
+}
+
+.move-3::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 8px;
+  background: linear-gradient(45deg, royalblue, indianred);
+  border-radius: 50%;
+  position: absolute;
+  bottom: -4px;
+  animation-name: smash;
+  animation-duration: 3s; 
+}
+
+.move-3 .rotate {
+  transform: rotate(1000deg);
+  transition-property: transform;
+  transition-duration: 3s;
+  transition-timing-function: ease-in;
+}
+
+@keyframes fallDown-3 {
+  from {
+    transform: translate(0, 0);
+  }
+
+  30% {
+    transform: translate(88px, 0);
+  }
+
+  100% {
+    transform: translate(130px, 410px);
+  }
+}
+
+@keyframes smash {
+  from, 99% {
+    visibility: hidden;
+  }
+  to {
+    visibility: visible;
+  }
+}
+
+@keyframes cloud-move {
+  from {
+    right: calc(0vw - 87px);
+  }
+
+  to {
+    right: calc(100vw + 20px);
+  }
+}
+.move-2 {
+  animation-name: fallDown-2;  
+  animation-duration: 7s;
+  animation-timing-function: ease-in;
+  transform: translate(550px, 410px);
+  transition-property: transform;
+  transition-delay: 7s;
+}
+
+.move-2 .rotate {
+  transform: rotate(1200deg);
+  transition-duration: 7s;
+  transition-timing-function: linear;
+  transition-property: transform;
+}
+
+@keyframes fallDown-2 {
+  from {
+    transform-origin: 100px 100px;
+    transform: rotate(0deg);
+  }
+
+  5% {
+    transform-origin: 100px 100px;
+    transform: rotate(90deg);
+  }
+
+  20% {
+    transform: translate(220px, 410px);    
+  }
+
+  35% {
+    transform: translate(270px, 137px);
+  }
+
+  50% {
+    transform: translate(320px, 410px);
+  }
+
+  65% {
+    transform: translate(370px, 273px);
+  }
+
+  80% {
+    transform: translate(420px, 410px);
+  }
+  
+  100% {
+    transform: translate(550px, 410px);
+  }
+  
+}
+
+.move-3 {
+  animation-name: fallDown-3;
+  animation-duration: 3s;
+  /* animation-timing-function: ease-in; */
+  animation-timing-function: cubic-bezier(.31,0,.9,.248);
+
+  visibility: hidden;
+  transform: translate(130px, 410px);
+  transition-property: transform, visibility;
+  transition-delay: 3s;    
+}
+
+.move-3::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 8px;
+  background: linear-gradient(45deg, royalblue, indianred);
+  border-radius: 50%;
+  position: absolute;
+  bottom: -4px;
+  animation-name: smash;
+  animation-duration: 3s; 
+}
+
+.move-3 .rotate {
+  transform: rotate(1000deg);
+  transition-property: transform;
+  transition-duration: 3s;
+  transition-timing-function: ease-in;
+}
+
+@keyframes fallDown-3 {
+  from {
+    transform: translate(0, 0);
+  }
+
+  30% {
+    transform: translate(88px, 0);
+  }
+
+  100% {
+    transform: translate(130px, 410px);
+  }
+}
+
+@keyframes smash {
+  from, 99% {
+    visibility: hidden;
+  }
+  to {
+    visibility: visible;
+  }
+}
+
+@keyframes cloud-move {
+  from {
+    right: calc(0vw - 87px);
+  }
+
+  to {
+    right: calc(100vw + 20px);
+  }
+}
